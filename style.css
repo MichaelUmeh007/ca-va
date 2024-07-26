@@ -5,32 +5,9 @@
 #centerPost1 {
     position: relative;
     background: url(//s.ytimg.com/yt/imgbin/www-refreshbg-vflC3wnbM.png) 0;
-    border-top-color: brown;
-    border-bottom-color: brown;
-    border-left-color: white;
-    border-right-color: white;
-    border-style: solid;
     padding: 2em;
 }
 
-#centerPost1::after , #centerPost1::before {
-    content: '';
-    position: absolute;
-    height: 2px;
-    width: 100%;
-    left: 0;
-    clip-path: polygon(1% 0%, 4% 100%, 9% 0%, 13% 100%, 19% 1%, 21% 100%, 26% 5%, 30% 100%, 36% 2%, 43% 100%, 50% 1%, 52% 100%, 61% 0%, 69% 94%, 70% 0%, 76% 100%, 81% 0%, 84% 100%, 91% 0%, 97% 100%, 99% 3%);
-}
-
-#centerPost1::before {
-    background-color: #2e3537;
-    top: 0;
-  }
-  
-#centerPost1::after {
-    background: url(//s.ytimg.com/yt/imgbin/www-refreshbg-vflC3wnbM.png) 0;
-    bottom: -2px;
-  }
 
 #buttons {
     position: static;
@@ -43,9 +20,15 @@
     text-align: center;
 }
 
+#centerContent {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 #poem1 {
     position: static;
     margin: auto;
+    margin-bottom: 10%;
     width: 33%;
     text-align: center;
     top: 0;
@@ -59,9 +42,24 @@
 }
 
 #doodleleft {
-    width : 33%
+    width : 33%;
 }
 
 #doodleright {
-    width : 33%
+    width : 33%;
+}
+
+#musicStuff {
+    position : relative;
+    text-align: center;
+}
+
+#hug {
+    position : relative;
+}
+
+audio {
+    position : absolute;
+    top : 60% ;
+    left : 18%
 }
