@@ -4,7 +4,7 @@
 
 .post {
     position: relative;
-    background: url(//s.ytimg.com/yt/imgbin/www-refreshbg-vflC3wnbM.png) 0;
+    background-color: 	#C8C8C8;
     padding: 2em;
     margin-bottom: 5%;
 }
@@ -19,23 +19,40 @@
     left: 0;
     right: 0;
     text-align: center;
+    background-color: white;
+    padding: .5em;
+    width: 7%;
 }
+
 
 .centerContent {
     display: table-cell;
     vertical-align: middle;
 }
 
-.poem {
+.poemTitle {
     position: static;
     margin: auto;
-    margin-bottom: 10%;
-    width: 33%;
+    width: 80%;
     text-align: center;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+    margin-bottom: 5%;
+
+}
+.poem {
+    position: static;
+    margin: auto;
+    margin-bottom: 10%;
+    width: 80%;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size:larger;
 }
 
 .content {
@@ -62,5 +79,5 @@
 #feellikethat {
     position : absolute;
     top : 60% ;
-    left : 18%
+    left : 12%
 }
