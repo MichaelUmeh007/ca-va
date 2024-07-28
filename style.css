@@ -2,14 +2,15 @@
     text-align: center
 }
 
-#centerPost1 {
+.post {
     position: relative;
     background: url(//s.ytimg.com/yt/imgbin/www-refreshbg-vflC3wnbM.png) 0;
     padding: 2em;
+    margin-bottom: 5%;
 }
 
 
-#buttons {
+.buttons {
     position: static;
     margin: auto;
     margin-bottom: 2em;
@@ -20,12 +21,12 @@
     text-align: center;
 }
 
-#centerContent {
+.centerContent {
     display: table-cell;
     vertical-align: middle;
 }
 
-#poem1 {
+.poem {
     position: static;
     margin: auto;
     margin-bottom: 10%;
@@ -37,19 +38,19 @@
     right: 0;
 }
 
-#content1 {
+.content {
     display: flex;
 }
 
-#doodleleft {
+.doodleleft {
     width : 33%;
 }
 
-#doodleright {
+.doodleright {
     width : 33%;
 }
 
-#musicStuff {
+.musicStuff {
     position : relative;
     text-align: center;
 }
@@ -58,7 +59,7 @@
     position : relative;
 }
 
-audio {
+#feellikethat {
     position : absolute;
     top : 60% ;
     left : 18%
